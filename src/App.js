@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react"
+import Main from "./components/Main"
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <main className="App">
+    <Main />
+  </main>
 }
 
-export default App;
+export default App
+
+// Collections
+// Men
+// Women
+// About
+// Contact
+
+// Sneaker Company
+
+// Fall Limited Edition Sneakers
+
+// These low-profile sneakers are your perfect casual wear companion. Featuring a
+// durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+// $125.00
+// 50%
+// $250.00
+
+// 0
+// Add to cart
