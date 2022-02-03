@@ -1,6 +1,13 @@
 import React from "react"
+import "./styles/app.css"
+import Main from "./components/Main"
+
 function App() {
-  return <main className="App"></main>
+  return (
+    <>
+      <Main />
+    </>
+  )
 }
 
 export default App

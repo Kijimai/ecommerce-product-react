@@ -1,0 +1,14 @@
+.navigation {
+  img {
+    height: 100%;
+  }
+
+  &__inner-container {
+    display: flex;
+    align-items: flex-start;
+
+    & > * {
+      max-height: 2.4rem;
+    }
+  }
+}

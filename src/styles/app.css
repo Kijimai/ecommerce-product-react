@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-size: var(--default-font-size);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+:root {
+  --color-white: 0 0% 100%;
+  --color-black: 0 0% 0%;
+  --color-grey: 219 9% 45%;
+  --primary-color-orange: 26 100% 55%;
+  --default-font-size: 62.5%;
+}
+
+.navigation img {
+  height: 100%;
+}
+.navigation__inner-container {
+  display: flex;
+  align-items: flex-start;
+}
+.navigation__inner-container > * {
+  max-height: 2.4rem;
+}
+
+/*# sourceMappingURL=app.css.map */
